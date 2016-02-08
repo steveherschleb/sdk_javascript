@@ -1,6 +1,6 @@
-# sdk_javascript #
+# alchemyapi_node #
 
-A sdk for AlchemyAPI using Javascript
+A software development kit (sdk) for AlchemyAPI using Node.js
 
 
 ## AlchemyAPI ##
@@ -19,12 +19,12 @@ To use AlchemyAPI, you'll need to obtain an API key and attach that key to all r
 
 
 
-## Getting Started with the Javascript SDK ##
+## Getting Started with the Node.js SDK ##
 
 To get started and run the example, simply:
 
-	git clone https://github.com/AlchemyAPI/sdk_javascript.git
-	cd sdk_javascript
+	git clone https://github.com/AlchemyAPI/alchemyapi_node.git
+	cd alchemyapi_node
 	npm install
 	node alchemyapi.js YOUR_KEY_HERE
 	node app.js
@@ -37,5 +37,5 @@ The example will be available at: http://localhost:3000
 
 ## A Note about Client Side Javascript ##
 
-This is intended to be used on the server side using Node. While it's possible to utilize AlchemyAPI completely in the browser, it is not recommended. First, this would expose your API key to the world, and this key is a secret. Second, most browsers will block calls to a different domain for security reasons. It's possible to get around this will jsonp, but it's recommended that you proxy any requests to AlchemyAPI through your own server. 
+This is intended to be used on the server side using Node. While it's possible to utilize AlchemyAPI completely in the browser, it is not recommended. First, this would expose your API key to the world, and this key is a secret. Second, most browsers will block calls to a different domain for security reasons. It's possible to get around this with jsonp, but it's recommended that you proxy any requests to AlchemyAPI through your own server. 
 
